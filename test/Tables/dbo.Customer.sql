@@ -6,6 +6,7 @@ CREATE TABLE [dbo].[Customer] (
 		[CustomerID]     [int] IDENTITY(1, 1) NOT NULL,
 		[FirstName]      [varchar](100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[LastName]       [varchar](100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+		[StateCode]      [varchar](5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		CONSTRAINT [PK__Customer__A4AE64B845E019CA]
 		PRIMARY KEY
 		CLUSTERED
